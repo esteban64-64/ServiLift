@@ -1,0 +1,13 @@
+# Secretos y datos locales
+**/.env
+!**/.env.example
+!servilift_app/assets/.env
+servilift-backend/storage/
+servilift-backend/tests/salida/
+# Respaldos de la base con datos (se guardan fuera de git)
+database/servilift_db_*.sql
+# Entornos y compilados
+**/venv/
+**/__pycache__/
+servilift_app/build/
+servilift_app/.dart_tool/
